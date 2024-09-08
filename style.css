@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*Navbar Starts */
+header{
+    background-color: white;
+}
+.nav {
+  margin-left: 100px;
+}
+.nav-link {
+  color: BLACK;
+  margin-left: 70px;
+}
+.btn {
+  margin-left: 80px;
+  border: 1px solid black;
+  border-radius: 50px;
+  color: black;
+  background-color: white;
+}
+/*Navbar Ends */
+
+/* hero section starts */
+.container {
+  display: flex;
+}
+.content {
+  margin-top: 150px;
+}
+.content p{
+    font-size: 20px;
+}
+.btn1 {
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 50px;
+  width: 200px;
+  background-color: black;
+  color: white;
+}
+.image img{
+margin-top: 100px;
+margin-left: 150px;
+}
+/* hero section Ends */
+
+/* Services section starts */
+.content1 {
+    margin-top: 80px;
+}
+.content1 p{
+    margin-left: 50px;
+    font-size: 15px;   
+}
+/* Services section Ends */
+.cards{
+display: flex;
+}
+.card{
+    width: 600px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 300px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.card-title{
+    width: 250px;
+    margin-top: 40px;
+    background-color: rgb(43, 215, 43);
+    margin-bottom: 150px;
+    font-size: 27px;
+}
+.img-fluid{
+    margin-top: 70px;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    right: 120px;
+}
+.card .image4{
+    position: relative;
+    top: 220px;
+    right: 200px;
+}
+.card1{
+    background-color: rgb(54, 243, 54);
+    width: 600px;
+    margin-top: 100px;
+    margin-left: 100px;
+    border: 1px solid black;
+    border-radius: 30px;
+height: 300px;
+}
+.card1 .card-title{
+   max-width: 150px;
+    background-color: white;
+    font-size:20px;
+}
+.card1 img{
+width: 200px;
+}
+.image3 img{
+    align-items: first baseline;
+    margin-top: 220px;
+    position: relative;
+    right: 120px;
+}
